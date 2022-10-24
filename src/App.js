@@ -1,23 +1,30 @@
-import logo from './logo.svg';
+import soundWaveLeft from './sound-wave-left.png';
+import soundWaveRight from './sound-wave-right.png';
+import background from './yellow-background.jpg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
+
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+
+        <img src={soundWaveLeft} height="64px" alt="logo"/>
+
+        able speak
+
+        <img src={soundWaveRight} height="64pc" alt="logo"/>
+
       </header>
+
+      <main className="App-main" style={{ backgroundImage: `url(${background})` }}>
+
+      </main>
+
+      <footer>
+        copyright 2022
+      </footer>
+
     </div>
   );
 }
