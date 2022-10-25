@@ -2,6 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import Food_Drinks from './Food_Drinks';
+import Activities from './Activities';
+import Needs from './Needs';
+import Emotions from './Emotions';
 import About from './About';
 import reportWebVitals from './reportWebVitals';
 import {
@@ -28,6 +32,10 @@ const Routing = () => {
 
         <Routes>
           <Route path="/" index element = {<App />} />
+          <Route path="/food_drinks" element = {<Food_Drinks/>} />
+          <Route path="/activities" element = {<Activities/>} />
+          <Route path="/needs" element = {<Needs/>} />
+          <Route path="/emotions" element = {<Emotions/>} />
           <Route path="/about" element = {<About />} />
         </Routes>
       </div>

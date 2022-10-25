@@ -1,0 +1,21 @@
+.App-header,
+footer {
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  background-color: #19AECB;
+  padding: 1rem; 
+  color: #fff;
+  font-family: brandon-grotesque, sans-serif;
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+.App-header p {
+    margin-bottom: 0;
+}
+
+footer {
+  font-size: 1rem;
+  bottom: 0;
+}

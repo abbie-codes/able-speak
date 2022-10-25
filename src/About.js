@@ -1,6 +1,4 @@
-import logo from './logo.svg';
 import './About.css';
-
 
 function About() {
   return (
