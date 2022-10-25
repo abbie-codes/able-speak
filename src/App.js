@@ -1,30 +1,22 @@
-import soundWaveLeft from './sound-wave-left.png';
-import soundWaveRight from './sound-wave-right.png';
 import background from './yellow-background.jpg';
 import './App.css';
+import './Header_Footer.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Footer from './Footer';
+import Header from './Header';
+import MainCard from './MainCard';
 
 function App() {
   return (
     <div className="App">
-
-      <header className="App-header">
-
-        <img src={soundWaveLeft} height="64px" alt="logo"/>
-
-        able speak
-
-        <img src={soundWaveRight} height="64pc" alt="logo"/>
-
-      </header>
+      <Header/>
 
       <main className="App-main" style={{ backgroundImage: `url(${background})` }}>
+      <MainCard className="Main-card"/>
 
       </main>
-
-      <footer>
-        copyright 2022
-      </footer>
-
+      
+      <Footer/>
     </div>
   );
 }
