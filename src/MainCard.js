@@ -7,15 +7,29 @@ function MainCard() {
     alert("I got clicked!")
   }
 
+
+  const cards = [
+    {title: 'FOOD & DRINKS', img: "https://img.icons8.com/color/96/000000/tomato.png"},
+    {title: 'ACTIVITIES', img: "test"},
+    {title: 'NEEDS', img: "test"},
+    {title: 'EMOTIONS', img: "test"}
+  ]
+
   return (
-    <Card className="menu" onClick={() => handleClick()} style={{ width: '15rem' }}>
-      <Card.Body>
-        <Card.Text className="card-text">
-            FOOD & DRINKS
-        </Card.Text>
-        <Card.Img className="card-img" variant="top" src="https://img.icons8.com/color/96/000000/meal--v1.png" />
-      </Card.Body>
-    </Card>
+    <div className="card-container">
+      {cards.map((card) => (
+      <Card className="menu" onClick={() => handleClick()} style={{ width: '15rem' }}>
+        <Card.Body>
+          {
+            <Card.Text className="card-text">
+              <p key={card.title}>{card.title}</p>
+            </Card.Text>
+          }
+          <Card.Img className="card-img" variant="top" src={card.img} />
+        </Card.Body>
+      </Card>
+      ))};
+    </div>
   );
 }
 
