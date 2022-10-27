@@ -14,6 +14,7 @@ import {
   Route,
   Link
 } from 'react-router-dom';
+import DragDropTest from './DragDropTest';
 
 const Routing = () => {
   return(
@@ -37,6 +38,7 @@ const Routing = () => {
           <Route path="/needs" element = {<Needs/>} />
           <Route path="/emotions" element = {<Emotions/>} />
           <Route path="/about" element = {<About />} />
+          <Route path="/dragtest" element = {<DragDropTest/>} />
         </Routes>
       </div>
     </Router>

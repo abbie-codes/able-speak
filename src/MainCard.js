@@ -13,7 +13,7 @@ function MainCard() {
   return (
     <div className="card-container">
       {cards.map((card) => (
-      <Card className="menu" style={{ width: '15rem' }}>
+      <Card className="menu" id={card.title} style={{ width: '15rem' }}>
         <Card.Body>
           {
             <Card.Text className="card-text">

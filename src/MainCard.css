@@ -13,6 +13,8 @@
     transition: 0.3s;
     border-radius: 5px;
     padding: 2px 8px;
+    height: 280px;
+    width: 280px;
 }
 
 .card-text {
