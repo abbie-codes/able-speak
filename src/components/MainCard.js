@@ -32,7 +32,7 @@ function MainCard(props) {
               <p key={props.title}>{props.title}</p>
             </Card.Text>
           }
-          <Card.Img className="card-img" variant="top" src={props.img} />
+          <Card.Img className="card-img" variant="top" src={props.img} draggable="false"/>
         </Card.Body>
       </Card>
 
