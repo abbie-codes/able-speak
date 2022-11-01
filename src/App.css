@@ -3,3 +3,7 @@
   flex-direction: column;
   background-image: url("/src/img/yellow-background.jpg");
 }
+
+.App-main {
+  min-height: 85vh;
+}
