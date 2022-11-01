@@ -1,9 +1,30 @@
-# Getting Started with Create React App
+CONTENTS OF THIS FILE
+---------------------
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ * Introduction & Project name
+ * Available scripts
+ * Instructions
+ * Reflections - IN DEVELOPMENT
+ * Maintainers
 
-## Available Scripts
+INTRODUCTION & PROJECT NAME
+------------
 
+able-speak is a non-verbal communication application that gives the user the ability to drag and drop images to form a basic sentence. This may be further developed so that once the images are in place you can click the microphone and the sentence will be read out to you. This web application should also be accessible on a mobile or tablet device. To restrict ourselves to small sentences that are easy to build we have decided that the app should be used to communicate basic needs in a home setting, however the app could be expanded to other settings, for example a classroom setting or whilst travelling.
+
+What does it do and what does it solve?
+
+It forms sentences based on the images selected, it solves the problem of non-verbal people needing to communicate via verbal words or text.
+
+What are the key features of your system?
+
+Images that can be dragged and dropped to form a sentence, possibly a microphone button which plays the audio files when clicked.
+
+* To view prototype go to: https://www.figma.com/proto/zpHoU2NPGep09MVKjVV83H/Group5-Project-Able_Speak?node-id=4%3A3&scaling=scale-down&page-id=0%3A1&starting-point-node-id=4%3A3
+
+
+AVAILABLE SCRIPTS
+-----------
 In the project directory, you can run:
 
 ### `npm start`
@@ -31,40 +52,35 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+** Note: this is a one-way operation. Once you eject, you can't go back!
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+If you aren't satisfied with the build tool and configuration choices, you can eject at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except eject will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+You don't have to ever use eject. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+INSTRUCTIONS
+------------
+Anytime you need to return to the homepage you can press “R” and navigate to the rest of the pages. In some cases, it might take a little while to load. 
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Preferably use a browser but if from a mobile phone, on the food/drinks page,  you would need to press and hold in order to get to the relative page and you can use its navigation system to go back. Also on the food/drinks page, you would need to click in order to “scroll down” to see more.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+REFLECTIONS
+-----------
+What was the context for this project? (ie: CFG final prject task)
+Why was this project challenging and therefore a really good learning experience?
+What were some unexpected obstacles?
+What tools did you use to implement this project?
+(ie.Justication of our joices of using a specific technology)
 
-### Code Splitting
+MAINTAINERS
+-----------
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Current maintainers:
+ * Abigail Unwin
+ * Annabelle Dufour
+ * Despoina Tsounaka
+ * Justyna Janiszewska
+ * Sirad Bihi
+ * Zeynep Kurugollu
