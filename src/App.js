@@ -1,9 +1,9 @@
 import background from './img/yellow-background.jpg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Footer from './Footer';
-import Header from './Header';
-import MainCard from './MainCard';
+import Footer from './components/Footer';
+import Header from './components/Header';
+import MainCard from './components/MainCard';
 import {Container, Row, Col} from 'react-bootstrap';
 
 
