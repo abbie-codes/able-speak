@@ -2,13 +2,17 @@ import {Container, Row, Col} from 'react-bootstrap';
 import Header from '../Header';
 import Footer from '../Footer';
 import MainCard from '../MainCard';
+import background from '../../img/yellow-background.jpg';
+import SentenceContainer from '../SentenceContainer';
 
 function Vegetables() {
     return (
       <div className="App" >
         <Header/>
 
-        <main className="App-main">
+        <main className="App-main" style={{ backgroundImage: `url(${background})` }}>
+
+          <SentenceContainer></SentenceContainer>
   
             <Container>
                 <Row>

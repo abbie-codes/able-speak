@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <Header/>
 
-      <main className="App-main">
+      <main className="App-main" style={{ backgroundImage: `url(${background})` }}>
 
       <Container>
         <Row>

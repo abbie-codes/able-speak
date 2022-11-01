@@ -2,17 +2,17 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import Food_Drinks from './Food_Drinks';
-import Fruits from './Food_Drinks/Fruits';
-import Activities from './Activities';
-import Needs from './Needs';
-import Emotions from './Emotions';
-import Vegetables from './Food_Drinks/Vegetables';
-import Dairy from './Food_Drinks/Dairy';
-import Meat from './Food_Drinks/Meat';
-import Drinks from './Food_Drinks/Drinks';
-import Fish from './Food_Drinks/Fish';
-import About from './About';
+import Food_Drinks from './components/Food_Drinks';
+import Fruits from './components/Food_Drinks/Fruits';
+import Activities from './components/Activities';
+import Needs from './components/Needs';
+import Emotions from './components/Emotions';
+import Vegetables from './components/Food_Drinks/Vegetables';
+import Dairy from './components/Food_Drinks/Dairy';
+import Meat from './components/Food_Drinks/Meat';
+import Drinks from './components/Food_Drinks/Drinks';
+import Fish from './components/Food_Drinks/Fish';
+import About from './components/About';
 import reportWebVitals from './reportWebVitals';
 import {
   BrowserRouter as Router,
