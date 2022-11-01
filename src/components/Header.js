@@ -1,6 +1,7 @@
 import React from "react";
 import soundWaveLeft from '../img/sound-wave-left.png';
 import soundWaveRight from '../img/sound-wave-right.png';
+import './Header_Footer.css';
 
 function Header() {
   return (

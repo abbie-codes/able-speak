@@ -6,7 +6,6 @@ import Header from './components/Header';
 import MainCard from './components/MainCard';
 import {Container, Row, Col} from 'react-bootstrap';
 
-
 function App() {
   return (
     <div className="App">
@@ -24,14 +23,8 @@ function App() {
           <Col md><MainCard className="Main-card" title="EMOTIONS" img="https://img.icons8.com/color/96/000000/smiling-face-with-heart.png"/></Col>
         </Row>
       </Container>
-     
+    
 
-
-
-      
-      
-      
-      
       </main>
       
       <Footer/>
