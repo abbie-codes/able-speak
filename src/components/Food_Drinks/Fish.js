@@ -1,8 +1,7 @@
 import { Container, Row, Col } from 'react-bootstrap';
 import Header from '../Header';
 import Footer from '../Footer';
-import MainCard from '../MainCard';
-import background from '../../img/yellow-background.jpg';
+import MainCard from '../MainCard'
 import SentenceContainer from '../SentenceContainer';
 
 function Fish() {
@@ -10,7 +9,7 @@ function Fish() {
     <div className="App" >
       <Header />
 
-      <main className="App-main" style={{ backgroundImage: `url(${background})` }}>
+      <main className="App-main">
 
         <SentenceContainer></SentenceContainer>
 
