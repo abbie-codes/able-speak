@@ -13,7 +13,7 @@ function MainCard(props) {
   return (
       <div className="card-container">
 
-        <Card className="card" onClick={() => handleClick()} style={{ width: '16rem' }}>
+        <Card className="card" onClick={handleClick} style={{ width: '16rem' }}>
           <Card.Body>
             {
               <Card.Text className="card-text">
