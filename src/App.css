@@ -1,5 +1,14 @@
 .App {
   display: flex; 
   flex-direction: column;
+  height: 100vh;
   background-image: url("/src/img/yellow-background.jpg");
 }
+
+.App-main {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
