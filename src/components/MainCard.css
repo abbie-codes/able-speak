@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-evenly;
     height: fit-content;
-    margin:  50px 25px;
+    margin: 50px 25px;
 }
 
 .card {
@@ -28,7 +28,7 @@
     margin-right: auto;
     width: 50%;
 }
-  
+
 .menu:hover {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
