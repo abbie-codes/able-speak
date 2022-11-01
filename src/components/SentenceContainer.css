@@ -1,0 +1,97 @@
+.sentence-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    margin: auto;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.sentence-text {
+    font-size: 2.5rem;
+    color: #19AECB;
+    font-weight: 700;
+    text-shadow: 4px 2px 0px #fff;
+    font-family: brandon-grotesque, sans-serif;
+}
+
+.empty-div {
+    border: 5px solid #19AECB;
+    border-radius: 16px;
+    height: 205px;
+    width: 265px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+#microphone {
+    background: url(../img/voice.png) no-repeat;
+    background-color: #fff;
+    border-radius: 64px;
+    cursor: pointer;
+    border: none;
+    width: 64px;
+    height: 64px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    margin: 10px;
+}
+
+#microphone:hover {
+    filter: brightness(1.1);
+    -webkit-filter: brightness(1.1);
+}
+
+#reset {
+  background-color: #fff;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 700;
+  line-height: 20px;
+  margin: 0;
+  outline: none;
+  overflow: visible;
+  padding: 13px 25px;
+  text-align: center;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transform: translateZ(0);
+  transition: filter .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  letter-spacing: 1.5px;
+}
+
+#reset:after {
+  background-clip: padding-box;
+  background: linear-gradient(180deg, rgba(25,174,203,1) 0%, rgba(1,241,254,1) 100%);
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  bottom: -4px;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+#reset:hover:not(:disabled) {
+  filter: brightness(1.1);
+  -webkit-filter: brightness(1.1);
+}
+
+#reset:disabled {
+  cursor: auto;
+}

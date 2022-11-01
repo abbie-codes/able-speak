@@ -1,12 +1,4 @@
 .App {
   display: flex; 
   flex-direction: column;
-  height: 100vh;
-}
-
-.App-main {
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  padding: 50px;
 }
