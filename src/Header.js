@@ -1,6 +1,6 @@
 import React from "react";
-import soundWaveLeft from './sound-wave-left.png';
-import soundWaveRight from './sound-wave-right.png';
+import soundWaveLeft from './Images/sound-wave-left.png';
+import soundWaveRight from './Images/sound-wave-right.png';
 
 function Header() {
   return (
