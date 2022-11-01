@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-evenly;
     height: fit-content;
-    margin: 50px 25px;
+    margin: 10px;
 }
 
 .card {
@@ -12,13 +12,12 @@
     border-radius: 8px;
     border-width: 4px;
     border-color: #19AECB;
-    padding: 2px 8px;
 }
 
 .card-text {
     color: #CB8F19;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: bold;
 }
 
