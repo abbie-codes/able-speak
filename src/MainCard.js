@@ -6,14 +6,21 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 function MainCard(props) {
 
-  function handleClick() {
-    alert("I got clicked!")
-  }
+  // function handleClick() {
+  //   alert("I got clicked!")
+  // }
+
+  function whenButtonPressed() {
+
+    const msg = new SpeechSynthesisUtterance();
+    msg.text = props.title;
+    window.speechSynthesis.speak(msg);
+}
 
   return (
       <div className="card-container">
 
-        <Card className="card" onClick={handleClick} style={{ width: '16rem' }}>
+        <Card className="card" onClick={() => { /*handleClick()*/; whenButtonPressed() }} style={{ width: '16rem' }}>
           <Card.Body>
             {
               <Card.Text className="card-text">
