@@ -1,9 +1,9 @@
-import background from './yellow-background.jpg';
-import './DragDropTest.css';
-import './Header_Footer.css';
+import background from '../img/yellow-background.jpg';
+import '../test/DragDropTest.css';
+import '../components/Header_Footer.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Footer from './Footer';
-import Header from './Header';
+import Footer from '../components/Footer';
+import Header from '../components/Header';
 import Card from 'react-bootstrap/Card';
 
 function DragDropTest() {
@@ -42,7 +42,7 @@ function DragDropTest() {
         <div className="App">
             <Header />
 
-            <main className="App-main" style={{ backgroundImage: `url(${background})` }}>
+            <main className="Drag-Drop-main" style={{ backgroundImage: `url(${background})` }}>
                 <div className="DragDropContainer">
                     <p>I want to</p>
                     <div class="empty-card" onDrop={drop}

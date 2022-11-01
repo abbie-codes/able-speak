@@ -1,10 +1,10 @@
-import background from './yellow-background.jpg';
+import background from './img/yellow-background.jpg';
 import './App.css';
-import './Header_Footer.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Footer from './Footer';
-import Header from './Header';
-import MainCard from './MainCard';
+import Footer from './components/Footer';
+import Header from './components/Header';
+import MainCard from './components/MainCard';
+import SentenceContainer from './components/SentenceContainer';
 
 function App() {
   return (
@@ -12,7 +12,8 @@ function App() {
       <Header/>
 
       <main className="App-main" style={{ backgroundImage: `url(${background})` }}>
-      <MainCard className="Main-card"/>
+      {/* <MainCard className="Main-card"/> */}
+      <SentenceContainer/>
 
       </main>
       

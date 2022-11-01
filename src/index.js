@@ -2,11 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import Food_Drinks from './Food_Drinks';
-import Activities from './Activities';
-import Needs from './Needs';
-import Emotions from './Emotions';
-import About from './About';
+import Food_Drinks from './components/Food_Drinks';
+import Activities from './components/Activities';
+import Needs from './components/Needs';
+import Emotions from './components/Emotions';
+import About from './components/About';
 import reportWebVitals from './reportWebVitals';
 import {
   BrowserRouter as Router,
@@ -14,7 +14,7 @@ import {
   Route,
   Link
 } from 'react-router-dom';
-import DragDropTest from './DragDropTest';
+import DragDropTest from './test/DragDropTest';
 
 const Routing = () => {
   return(
