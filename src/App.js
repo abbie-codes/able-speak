@@ -1,4 +1,3 @@
-import background from './img/yellow-background.jpg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Footer from './components/Footer';
@@ -11,7 +10,7 @@ function App() {
     <div className="App">
       <Header/>
 
-      <main className="App-main" style={{ backgroundImage: `url(${background})` }}>
+      <main className="App-main">
 
       <Container>
         <Row>
