@@ -2,6 +2,8 @@ import {Container, Row, Col} from 'react-bootstrap';
 import Header from './Header';
 import Footer from './Footer';
 import MainCard from './MainCard';
+import SentenceContainer from './SentenceContainer';
+
 
 function Activities() {
     return (
@@ -9,6 +11,8 @@ function Activities() {
         <Header/>
 
         <main className="App-main">
+
+        <SentenceContainer verb="want"></SentenceContainer>
   
             <Container>
                 <Row>

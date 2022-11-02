@@ -11,7 +11,7 @@ function Drinks() {
 
       <main className="App-main">
 
-        <SentenceContainer></SentenceContainer>
+        <SentenceContainer verb="want to drink"></SentenceContainer>
 
         <Container>
           <Row>

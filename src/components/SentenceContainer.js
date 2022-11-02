@@ -1,6 +1,6 @@
 import './SentenceContainer.css';
 
-function SentenceContainer() {
+function SentenceContainer(props) {
 
     const refreshPage = () => {
         window.location.reload();
@@ -19,7 +19,7 @@ function SentenceContainer() {
 
     return (
         <div className="sentence-container">
-            <p className="sentence-text">I want</p>
+            <p className="sentence-text">I {props.verb}</p>
             <div className="empty-div" onDrop={drop}
                 onDragOver={dragOver1}
                 id="board-1"></div>
