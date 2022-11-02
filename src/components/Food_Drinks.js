@@ -13,14 +13,14 @@ function Food_Drinks() {
   
             <Container>
                 <Row>
-                    <Col md><MainCard className="Main-card" title="FRUITS" img="https://img.icons8.com/color/96/000000/group-of-fruits.png"/></Col>
-                    <Col md><MainCard className="Main-card" title="VEGETABLES" img="https://img.icons8.com/color/96/000000/group-of-vegetables.png"/></Col>
-                    <Col md><MainCard className="Main-card" title="DAIRY" img="https://img.icons8.com/color/96/000000/milk-bottle.png"/></Col>
+                    <Col md><MainCard navigateTo="/Fruits" className="Main-card" title="FRUITS" img="https://img.icons8.com/color/96/000000/group-of-fruits.png"/></Col>
+                    <Col md><MainCard navigateTo="/Vegetables" className="Main-card" title="VEGETABLES" img="https://img.icons8.com/color/96/000000/group-of-vegetables.png"/></Col>
+                    <Col md><MainCard navigateTo="/Dairy" className="Main-card" title="DAIRY" img="https://img.icons8.com/color/96/000000/milk-bottle.png"/></Col>
                 </Row>                
                 <Row>
-                    <Col md><MainCard className="Main-card" title="MEAT" img="https://img.icons8.com/color/96/000000/roast.png"/></Col>
-                    <Col md><MainCard className="Main-card" title="FISH" img="https://img.icons8.com/color/96/000000/koi-fish.png"/></Col>
-                    <Col md><MainCard className="Main-card" title="DRINKS" img="https://img.icons8.com/color/96/000000/soda-cup.png"/></Col>
+                    <Col md><MainCard navigateTo="/Meat" className="Main-card" title="MEAT" img="https://img.icons8.com/color/96/000000/roast.png"/></Col>
+                    <Col md><MainCard navigateTo="/Fish" className="Main-card" title="FISH" img="https://img.icons8.com/color/96/000000/koi-fish.png"/></Col>
+                    <Col md><MainCard navigateTo="/Drinks" className="Main-card" title="DRINKS" img="https://img.icons8.com/color/96/000000/soda-cup.png"/></Col>
                 </Row>
             </Container>
        
