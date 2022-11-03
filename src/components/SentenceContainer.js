@@ -1,6 +1,6 @@
 import './SentenceContainer.css';
 
-function SentenceContainer() {
+function SentenceContainer(props) {
 
     const refreshPage = () => {
         window.location.reload();
@@ -17,9 +17,36 @@ function SentenceContainer() {
         e.preventDefault();
     };
 
+function saySentence() {
+
+    const getCardIds = () => {
+        const boardOne = document.getElementById('board-1');
+        const cardOne = boardOne.children;
+        const idOne = cardOne[0].id;
+        const boardTwo = document.getElementById('board-2');
+        if(boardTwo.children.length > 0) {
+            const cardTwo = boardTwo.children;
+            const idTwo = cardTwo[0].id;
+            return idOne + ' and ' + idTwo;
+        } else {
+            return idOne;
+        }
+        
+    }
+    const msg1 = new SpeechSynthesisUtterance();
+    msg1.text = 'I ' + (props.verb);
+    window.speechSynthesis.speak(msg1);
+  
+
+    const msg = new SpeechSynthesisUtterance();
+    msg.text = getCardIds();
+    window.speechSynthesis.speak(msg);
+    
+}
+
     return (
         <div className="sentence-container">
-            <p className="sentence-text">I want</p>
+            <p className="sentence-text">I {props.verb}</p>
             <div className="empty-div" onDrop={drop}
                 onDragOver={dragOver1}
                 id="board-1"></div>
@@ -28,7 +55,7 @@ function SentenceContainer() {
                 onDrop={drop}
                 onDragOver={dragOver1}></div>
             <p className="sentence-text">=</p>
-            <button id="microphone"></button>
+            <button id="microphone" onClick={() => { saySentence() }}></button>
             <button id="reset" onClick={refreshPage}>Reset</button>
         </div>
     );
