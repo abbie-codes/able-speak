@@ -79,7 +79,6 @@ MAINTAINERS
 
 Current maintainers:
  * Abigail Unwin
- * Annabelle Dufour
  * Despoina Tsounaka
  * Justyna Janiszewska
  * Sirad Bihi
