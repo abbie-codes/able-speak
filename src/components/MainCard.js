@@ -24,17 +24,18 @@ function MainCard(props) {
 
   return (
     <div className="card-container">
-
-      <Card className="card" id={props.title} onClick={() => { whenButtonPressed() }} style={{ width: '16rem' }} draggable onDragStart={dragStart} onDragOver={dragOver}>
-        <Card.Body>
-          {
-            <Card.Text className="card-text">
-              <p key={props.title}>{props.title}</p>
-            </Card.Text>
-          }
-          <Card.Img className="card-img" variant="top" src={props.img} draggable="false"/>
-        </Card.Body>
-      </Card>
+      <a href={props.navigateTo} >
+        <Card className="card" id={props.title} onClick={() => { whenButtonPressed() }} style={{ width: '16rem' }} draggable onDragStart={dragStart} onDragOver={dragOver}>
+          <Card.Body>
+            {
+              <Card.Text className="card-text">
+                <p key={props.title}>{props.title}</p>
+              </Card.Text>
+            }
+            <Card.Img className="card-img" variant="top" src={props.img} draggable="false"/>
+          </Card.Body>
+        </Card>
+      </a>
 
     </div>
   );

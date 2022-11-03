@@ -2,6 +2,7 @@ import {Container, Row, Col} from 'react-bootstrap';
 import Header from './Header';
 import Footer from './Footer';
 import MainCard from './MainCard';
+import SentenceContainer from './SentenceContainer';
 
 function Needs() {
     return (
@@ -9,6 +10,8 @@ function Needs() {
         <Header/>
 
         <main className="App-main">
+
+        <SentenceContainer verb="need"></SentenceContainer>
   
             <Container>
                 <Row>

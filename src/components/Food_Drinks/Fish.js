@@ -11,7 +11,7 @@ function Fish() {
 
       <main className="App-main">
 
-        <SentenceContainer></SentenceContainer>
+        <SentenceContainer verb="want to eat"></SentenceContainer>
 
         <Container>
           <Row>

@@ -9,7 +9,7 @@ function Header() {
 
         <img src={soundWaveLeft} height="64px" alt="logo"/>
 
-        <p>able speak</p>
+        <a href="/"><p>able speak</p></a>
 
         <img src={soundWaveRight} height="64px" alt="logo"/>
 
