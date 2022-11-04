@@ -17,7 +17,7 @@ We understand how frustrating it is for non-verbal communicators to connect with
 
 What are the key features of your system?
 
-Selected images can be dragged and dropped to form a sentence. Once they are placed in the designated container a microphone button plays the audio files when clicked.
+Selected images can be dragged and dropped to form a sentence. Once they are placed in the dropped zone a microphone button plays the audio files when clicked.
 
 * To view prototype go to: https://www.figma.com/proto/zpHoU2NPGep09MVKjVV83H/Group5-Project-Able_Speak?node-id=4%3A3&scaling=scale-down&page-id=0%3A1&starting-point-node-id=4%3A3
 
