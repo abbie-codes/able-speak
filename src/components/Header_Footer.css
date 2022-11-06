@@ -6,20 +6,19 @@ footer {
   background-color: #19AECB;
   padding: 1rem; 
   color: #fff;
-  font-family: brandon-grotesque, sans-serif;
-  font-size: 2.5rem;
-  font-weight: 500;
 }
 
-.App-header p {
-    margin-bottom: 0;
+.App-header img {
+  margin: 5px;
 }
 
 footer {
   font-size: 1rem;
   padding-bottom: 0;
   justify-content: center;
-  position: relative;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 .attribute {
@@ -35,4 +34,12 @@ a {
 
 a:hover {
   color: white;
+}
+
+@media screen and (max-width: 600px) {
+  .App-header img {
+    height: 40px;
+    margin: 0;
+
+  }
 }

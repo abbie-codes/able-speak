@@ -6,15 +6,13 @@
     margin: auto;
     margin: 15px;
     flex-wrap: wrap;
-    width: 100%;
 }
 
 .sentence-text {
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: #19AECB;
     font-weight: 700;
     text-shadow: 4px 2px 0px #fff;
-    font-family: brandon-grotesque, sans-serif;
 }
 
 .empty-div {
