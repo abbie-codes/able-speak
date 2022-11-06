@@ -6,7 +6,6 @@ CONTENTS OF THIS FILE
 
  * About this project
  * Instructions
- * Additional scripts
  * Maintainers
 
 ABOUT THIS PROJECT
