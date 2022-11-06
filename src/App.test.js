@@ -1,8 +1,15 @@
-import { render, screen } from '@testing-library/react';
+import { render, act, fireEvent, screen } from "@testing-library/react";
 import App from './App';
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
-});
+
+
+describe("App file tests", () => {
+
+  it('renders all MainCard Components', () => {
+    //const { getAllByTestId } = render(<App />);
+    render(<App />)
+    const main_cards = screen.getAllByTestId("card-button")
+    expect(main_cards).toHaveLength(4)
+  });
+
+})
