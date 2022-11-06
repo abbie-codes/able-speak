@@ -24,7 +24,7 @@ function MainCard(props) {
   return (
     <div className="card-container">
       <a href={props.navigateTo} >
-        <Card className="card" id={props.title} onClick={() => { whenButtonPressed() }} style={{ width: '16rem' }} draggable onDragStart={dragStart} onDragOver={dragOver}>
+        <Card className="card" data-testid="card-button" id={props.title} onClick={() => { whenButtonPressed() }} style={{ width: '16rem' }} draggable onDragStart={dragStart} onDragOver={dragOver}>
           <Card.Body>
             {
               <Card.Text className="card-text">
