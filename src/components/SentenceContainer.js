@@ -55,8 +55,8 @@ function SentenceContainer(props) {
                     onDrop={drop}
                     onDragOver={dragOver1}></div>
                 <p className="sentence-text">=</p>
-                <button id="microphone" onClick={() => { saySentence() }}></button>
-                <button id="reset" onClick={refreshPage}>Reset</button>
+                <button id="microphone" data-testid="mic_button" onClick={() => { saySentence() }}></button>
+                <button id="reset" data-testid="reset-button" onClick={refreshPage}>Reset</button>
             </div>
         );
     }
