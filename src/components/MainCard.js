@@ -1,5 +1,4 @@
 import Card from 'react-bootstrap/Card';
-import { Redirect } from 'react-router';
 import './MainCard.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 
